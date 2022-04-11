@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body,html {
+    height: 90%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkContainer {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-family: Arial;
+    text-transform: upperCase;
+    border: 3px solid rgba(0,0,0,0.5);
+    border-radius: 7px;
+    height:150px;
+    width:300px;
+    background: cyan;
+    margin: 0 50px;
+    transition: transform 200ms ease-in-out; 
+    cursor: pointer;
+}
+
+.linkContainer:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out; 
+}
