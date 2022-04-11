@@ -125,7 +125,7 @@ a:hover {
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
 .d-bloc a .icon-sm,
-.d-bloc a .icon-md,
+/* .d-bloc a .icon-md, */
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
@@ -641,7 +641,6 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
 h3,
 h4,
@@ -653,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -722,10 +721,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -884,10 +879,42 @@ h4 {
 }
 
 .bloc5_h2 {
+    z-index:1;
     width:450px;
+    color: #f2f2f2;
 }
 
-// MEDIA QUERIES
+/* Contraste couleurs */
+
+h1 {
+    color: #f2f2f2;
+}
+
+.bloc3_h2 {
+    color: #f2f2f2;
+}
+
+.block6_contact_p {
+    color: #f2f2f2;
+}
+
+.footer_title {
+    color: #333333;
+}
+
+.social_icon {
+    color: #333333;
+}
+
+li {
+    color : #333333;
+}
+
+.footer_link {
+    color: #333333;
+}
+
+/* MEDIA QUERIES */
 
 @media (max-width: 1024px) {
     .bloc {
